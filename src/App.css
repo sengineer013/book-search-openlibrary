@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 30px;
 }
 
 .App-logo {
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.input-stype {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+}
+
+.input-stype input {
+  width: 200px;
+  margin-right: 40px;
 }
