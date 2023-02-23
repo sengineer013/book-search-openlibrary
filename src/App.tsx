@@ -194,10 +194,12 @@ const App: React.FC = () => {
           size='small'
           rowKey={(record) => record.key}
           pagination={{
+            position:['topRight', 'bottomRight'],
             pageSize: pageInfo.pageSize,
             pageSizeOptions: [10, 20, 50, 100],
             total: totalCount,
             current: pageInfo.current,
+            showQuickJumper: true,
             onChange: (page, pageSize) => handlePageChange(page, pageSize)
           }}
         />
